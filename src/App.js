@@ -1,5 +1,11 @@
+import Categories from './components/categories/categories-component.jsx'
+
 const App = () => {
-  return <div>Hello</div>;
+
+
+  return (
+    <Categories />
+  );
 };
 
 export default App;
