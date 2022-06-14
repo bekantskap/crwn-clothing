@@ -19,7 +19,7 @@ const SignUpForm = () => {
   const { displayName, email, password, confirmPassword } = formFields;
 
   const resetFormFields = () => {
-    setFormFields();
+    setFormFields(defaultFormFields);
   };
 
   const handleSubmit = async event => {
